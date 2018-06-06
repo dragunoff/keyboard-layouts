@@ -1,0 +1,13 @@
+//
+// Workman ZXCV
+// ===
+//
+partial alphanumeric_keys
+xkb_symbols "workman-zxcv" {
+  include "us(workman)"
+  name[Group1]= "English (Workman ZXCV)";
+  
+    key <AB03> {  [   c,  C   ] };
+    key <AB04> {  [   v,  V   ] };
+    key <AB05> {  [   m,  M   ] };
+};
